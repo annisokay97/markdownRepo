@@ -1,4 +1,4 @@
-# BLA BLA Edited from Github UI
+# BLA BLA Edited from Github UI1
 
 $$"financeEconomy" = ("Pselected" * 0.001 * "quantity" * "tariff" - "Pother" * 0.001 * "quantity" * "tariff") * "workingHoursInYear"$$
 
