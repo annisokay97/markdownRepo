@@ -11,7 +11,7 @@ $$"financeEconomy" = ("Pselected" * 0.001 * "quantity" * "tariff" - "Pother" * 0
 [](/data-set/category.schema.json)
 [](/data-set/category.json)
 
-# **header**
+# header
 
 ## header
 
