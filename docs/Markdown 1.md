@@ -1,5 +1,5 @@
 # BLA BLA Edited from Github UI1
-
+```options.map((option) => option.id);```
 $$"financeEconomy" = ("Pselected" * 0.001 * "quantity" * "tariff" - "Pother" * 0.001 * "quantity" * "tariff") * "workingHoursInYear"$$
 
 [](/data-set/PROZORRO-QuestionGroups.csv?r=1,2,4-6 "Question Groups")
