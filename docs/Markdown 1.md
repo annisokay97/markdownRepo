@@ -12,7 +12,7 @@ $$"financeEconomy" = ("Pselected" * 0.001 * "quantity" * "tariff" - "Pother" * 0
 [](/data-set/category.json)
 
 
-['{
+[{
   "name":"John",
   "age":30,
   "cars": {
@@ -20,7 +20,7 @@ $$"financeEconomy" = ("Pselected" * 0.001 * "quantity" * "tariff" - "Pother" * 0
     "car2":"BMW",
     "car3":"Fiat"
   }
- }'](json, "show more")
+ }](json, "show more")
 
 # **header**
 
