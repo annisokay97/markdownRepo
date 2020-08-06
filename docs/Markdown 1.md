@@ -39,7 +39,11 @@ $$"financeEconomy" = ("Pselected" * 0.001 * "quantity" * "tariff" - "Pother" * 0
 
 <details>
     <summary>Details</summary>
-    Something small enough to escape casual notice.
+   ```shell script
+$ npm i ustudio-ui
+# or
+$ yarn add ustudio-ui
+```
 </details>
                 
 ----
