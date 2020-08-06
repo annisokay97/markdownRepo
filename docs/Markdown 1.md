@@ -12,7 +12,13 @@ $$"financeEconomy" = ("Pselected" * 0.001 * "quantity" * "tariff" - "Pother" * 0
 [](/data-set/category.json)
 
 
-[# text]($ "show more")
+[
+```shell script
+$ npm i ustudio-ui
+# or
+$ yarn add ustudio-ui
+```
+]($ "show more")
 
 # **header**
 
