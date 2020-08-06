@@ -11,6 +11,15 @@ $$"financeEconomy" = ("Pselected" * 0.001 * "quantity" * "tariff" - "Pother" * 0
 [](/data-set/category.schema.json)
 [](/data-set/category.json)
 
+
+[
+```shell script
+$ npm i ustudio-ui
+# or
+$ yarn add ustudio-ui
+```
+](Show more)
+
 # **header**
 
 ## header
@@ -38,6 +47,18 @@ $$"financeEconomy" = ("Pselected" * 0.001 * "quantity" * "tariff" - "Pother" * 0
 ### Characters1
 
 ## collapsible markdown?
+
+<details><summary>CLICK ME</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+```python
+print("hello world!")
+```
+
+</p>
+</details>
                 
 ----
 
