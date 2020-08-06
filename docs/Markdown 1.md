@@ -12,7 +12,7 @@ $$"financeEconomy" = ("Pselected" * 0.001 * "quantity" * "tariff" - "Pother" * 0
 [](/data-set/category.json)
 
 
-[Show more](123)
+[Show more](123 "title")
 
 # **header**
 
@@ -39,20 +39,6 @@ $$"financeEconomy" = ("Pselected" * 0.001 * "quantity" * "tariff" - "Pother" * 0
 ###### 6 link [Heading link](https://github.com/pandao/editor.md "Heading link")
 
 ### Characters1
-
-## collapsible markdown?
-
-<details><summary>CLICK ME</summary>
-<p>
-
-#### yes, even hidden code blocks!
-
-```python
-print("hello world!")
-```
-
-</p>
-</details>
                 
 ----
 
