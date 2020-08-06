@@ -13,7 +13,6 @@ $$"financeEconomy" = ("Pselected" * 0.001 * "quantity" * "tariff" - "Pother" * 0
 
 
 [Show more](code 
-```
 {
   "name":"John",
   "age":30,
@@ -23,7 +22,6 @@ $$"financeEconomy" = ("Pselected" * 0.001 * "quantity" * "tariff" - "Pother" * 0
     "car3":"Fiat"
   }
  }
-```
 )
 
 # **header**
