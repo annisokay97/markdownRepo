@@ -36,6 +36,11 @@ $$"financeEconomy" = ("Pselected" * 0.001 * "quantity" * "tariff" - "Pother" * 0
 ###### 6 link [Heading link](https://github.com/pandao/editor.md "Heading link")
 
 ### Characters1
+
+<details>
+    <summary>Details</summary>
+    Something small enough to escape casual notice.
+</details>
                 
 ----
 
