@@ -7,7 +7,7 @@ $ yarn add ustudio-ui
 
 $$"financeEconomy" = ("Pselected" * 0.001 * "quantity" * "tariff" - "Pother" * 0.001 * "quantity" * "tariff") * "workingHoursInYear"$$
 
-[](/data-set/PROZORRO-QuestionGroups.csv?r=1,2,4-6&c=1 "Question Groups")
+[](/data-set/PROZORRO-QuestionGroups.csv?r=1,2,4-6 "Question Groups")
 [](/data-set/category.schema.json)
 [](/data-set/category.json)
 
