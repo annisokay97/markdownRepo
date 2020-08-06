@@ -13,12 +13,11 @@ $$"financeEconomy" = ("Pselected" * 0.001 * "quantity" * "tariff" - "Pother" * 0
 
 
 [
-```shell script
-$ npm i ustudio-ui
-# or
-$ yarn add ustudio-ui
-```
-]($ "show more")
+{
+name: "12",
+age: 12
+}
+]($json "show more")
 
 # **header**
 
