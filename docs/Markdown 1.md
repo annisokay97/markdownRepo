@@ -39,11 +39,12 @@ $$"financeEconomy" = ("Pselected" * 0.001 * "quantity" * "tariff" - "Pother" * 0
 
 <details>
     <summary>Details</summary>
-   ```shell script
+   <pre><code>```shell script
 $ npm i ustudio-ui
 # or
 $ yarn add ustudio-ui
 ```
+</pre></code>
 </details>
                 
 ----
