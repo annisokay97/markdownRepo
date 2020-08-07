@@ -1,5 +1,5 @@
 fsdh
-[
+['
 |  Attribute/description |  | Data-Type |
 |  --- | --- | --- |
 |  **ocid** |  | string |
@@ -58,4 +58,4 @@ fsdh
 |  Objects described information about related funding (FSs), EI and other related sub-processes<br/>See RelatedProcess |  |  |
 |  **parties** | array | object |
 |  Object described information about Entities involved into this part of CP <br/>See Organization |  |  |
-]($table "dddd")
+']($table "dddd")
