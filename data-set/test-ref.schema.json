@@ -483,16 +483,6 @@
           ],
           "format": "date-time"
         },
-        "items": {
-          "title": "Items awarded",
-          "description": "The goods and services awarded in this award, broken into line items wherever possible. Items should not be duplicated, but the quantity specified instead.",
-          "type": "array",
-          "minItems": 1,
-          "items": {
-            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Item"
-          },
-          "uniqueItems": true
-        },
         "relatedLots": {
           "title": "Related lot(s)",
           "description": "If this award relates to one or more specific lots, provide the identifier(s) of the related lot(s) here.",
