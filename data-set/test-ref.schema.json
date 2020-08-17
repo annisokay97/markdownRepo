@@ -470,9 +470,7 @@
             "cancelled",
             "unsuccessful",
             null
-          ],
-          "codelist": "awardStatus.csv",
-          "openCodelist": false
+          ]
         },
         "date": {
           "title": "Award date",
