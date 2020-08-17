@@ -4,6 +4,14 @@
   "type":"object",
   "description": "A common definitions of an 'award' as per standard",
   "properties": {
-  	"$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Award"
+  	 "documents": {
+      "title": "Documents",
+      "description": "All documents and attachments related to the award, including any notices.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Document"
+      },
+      "uniqueItems": true
+    }
   }
 }
