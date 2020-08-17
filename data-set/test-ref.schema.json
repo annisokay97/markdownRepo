@@ -53,17 +53,17 @@
         "targetsAchieved": {
           "title": "Targets achieved",
           "description": "The [Action] prescribed for the case if targets of this stage of the electronic auction where acheived",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Action"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Action"
         },
         "targetsNotAchieved": {
           "title": "Targets not achieved",
           "description": "The [Action] prescribed for the case if targets of this stage of the electronic auction where not acheived",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Action"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Action"
         },
         "groupCancelled": {
           "title": "Group cancelled",
           "description": "The [Action] prescribed for the case if this stage of the electronic auction was cancelled do to requirements of the conditions to start",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Action"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Action"
         }
       }
     },
@@ -115,7 +115,7 @@
         "addressDetails": {
           "description": "[AddressDetails] for machine proceeding",
           "type": "object",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/AddressDetails"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/AddressDetails"
         }
       }
     },
@@ -126,17 +126,17 @@
         "countryDetails": {
           "description": "Country code [Classification] according to 'iso-alpha2' classifier",
           "type": "object",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Classification"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Classification"
         },
         "regionDetails": {
           "description": "Region code [Classification] according to 'iso-alpha2' classifier",
           "type": "object",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Classification"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Classification"
         },
         "localityDetails": {
           "description": "Locality code [Classification] according to either 'UN/LOCDE' or any applicable local classifier",
           "type": "object",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Classification"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Classification"
         },
         "NUTSCode": {
           "title": "NUTS Code",
@@ -172,14 +172,14 @@
         "auctionPeriod": {
           "title": "Auction period",
           "description": "The [Period] of time allocated (spent) for execution of this electronic auction",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "criteria": {
           "title": "Auction criteria",
           "description": "Any [Criterion] on which this stage of the electronic auction will be launched, judged, evaluated or assessed.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Criterion"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Criterion"
           }
         },
         "auctionBreakdown": {
@@ -187,7 +187,7 @@
           "description": "The stages of this electronic auction, described as [AuctionRoundsGroup]",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/AuctionRoundsGroup"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/AuctionRoundsGroup"
           }
         },
         "auctionResult": {
@@ -212,7 +212,7 @@
               "description": "The set of bids resulting this stage of the electronic auction",
               "type": "array",
               "items": {
-                "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Bid"
+                "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Bid"
               }
             }
           }
@@ -289,7 +289,7 @@
           "desciption": "The set of targets prescribed for this stage of the electronic auction that has to be achieved to consider this stage as successfull. As an array of [Metric]",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Metric"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Metric"
           }
         },
         "actions": {
@@ -297,7 +297,7 @@
           "description": "The [ActionTriggers] for this stage of the electronic auction",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/ActionTriggers"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/ActionTriggers"
           }
         },
         "invitedTenderers": {
@@ -305,7 +305,7 @@
           "description": "The set of the groups of the invited particiapnts described using as [InvitationToAuction]",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/InvitationToAuction"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/InvitationToAuction"
           }
         },
         "rounds": {
@@ -313,13 +313,13 @@
           "desciption": "The set of [AuctionRound] arranged under this stage of the electronic auction",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/AuctionRound"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/AuctionRound"
           }
         },
         "auctionProgress": {
           "type": "array",
           "items": {
-            "#ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/AuctionRoundProgress"
+            "#ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/AuctionRoundProgress"
           }
         }
       }
@@ -337,7 +337,7 @@
         "roundPeriod": {
           "title": "Round period",
           "description": "The [Period] (either start/end dates or duration) for this round",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "auctionThreshold": {
           "title": "",
@@ -365,17 +365,17 @@
         "eligibleMinDifference": {
           "title": "",
           "description": "Min eligible difference for this round described as [ValueDifference]]",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/ValueDifference"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/ValueDifference"
         },
         "eligibleExpectedDifference": {
           "title": "",
           "description": "Exepcted difference for this round described as [ValueDifference]",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/ValueDifference"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/ValueDifference"
         },
         "eligibleMaxDifference": {
           "title": "",
           "description": "Max eligible difference for this round described as [ValueDifference]",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/ValueDifference"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/ValueDifference"
         }
       }
     },
@@ -405,14 +405,14 @@
           "title": "",
           "description": "The [Period] for this round",
           "type": "object",
-          "#ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "#ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "bids": {
           "title": "",
           "description": "Set of all [Bid] result this round",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Bid"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Bid"
           }
         }
       }
@@ -486,14 +486,14 @@
         "value": {
           "title": "Value",
           "description": "The total value of this award. In the case of a framework contract this may be the total estimated lifetime value, or maximum value, of the agreement. There may be more than one award per procurement. A negative value indicates that the award may involve payments from the supplier to the buyer (commonly used in concession contracts).",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Value"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Value"
         },
         "suppliers": {
           "title": "Suppliers",
           "description": "The suppliers awarded this award. If different suppliers have been awarded different items of values, these should be split into separate award blocks.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/OrganizationReference"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/OrganizationReference"
           },
           "uniqueItems": true
         },
@@ -503,21 +503,21 @@
           "type": "array",
           "minItems": 1,
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Item"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Item"
           },
           "uniqueItems": true
         },
         "contractPeriod": {
           "title": "Contract period",
           "description": "The period for which the contract has been awarded.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "documents": {
           "title": "Documents",
           "description": "All documents and attachments related to the award, including any notices.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Document"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Document"
           },
           "uniqueItems": true
         },
@@ -526,7 +526,7 @@
           "type": "array",
           "title": "Amendments",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Amendment"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Amendment"
           }
         },
         "relatedLots": {
@@ -549,7 +549,7 @@
             "idRef": "id"
           },
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/RequirementResponse"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/RequirementResponse"
           },
           "unqiueItems": true
         },
@@ -558,7 +558,7 @@
           "description": "Any comlaints related to this award",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/RelatedComplaint"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/RelatedComplaint"
           }
         },
         "statusDetails": {
@@ -571,7 +571,7 @@
           "title": "Agreed metrics",
           "description": "Any target metrics set out as part of the contract award.",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Metric"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Metric"
           },
           "uniqueItems": true
         },
@@ -604,26 +604,26 @@
           "title": "Legal [Address] of the Bank",
           "description": "Legal [Address] of the Bank",
           "type": "Object",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Address"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Address"
         },
         "identifier": {
           "title": "",
           "description": "Primary [Identifier] of the Bank",
           "type": "Object",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Identifier"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Identifier"
         },
         "accountIdentification": {
           "title": "",
           "description": "Account number as [Classification]",
           "type": "object",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Classification"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Classification"
         },
         "additionalAccountIndentifiers": {
           "title": "",
           "description": "Account additional requisites as an array of [Classification]",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Classification"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Classification"
           }
         }
       }
@@ -669,20 +669,20 @@
             "null"
           ],
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/OrganizationReference"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/OrganizationReference"
           }
         },
         "value": {
           "title": "Value",
           "description": "The total [Value] of the bid.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Value"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Value"
         },
         "documents": {
           "title": "Documents",
           "description": "Any [Document] and attachment related to the bid and its evaluation.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Document"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Document"
           },
           "uniqueItems": true
         },
@@ -709,7 +709,7 @@
             "idRef": "id"
           },
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/RequirementResponse"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/RequirementResponse"
           },
           "unqiueItems": true
         }
@@ -806,7 +806,7 @@
           "title": "Amount",
           "description": "The [Value] of the budget line item. A negative value indicates anticipated income to the budget as a result of this contracting process, rather than expenditure.",
           "type": "object",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Value"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Value"
         },
         "project": {
           "title": "Project title",
@@ -839,7 +839,7 @@
           "title": "Budget breakdown",
           "description": "A array of [BudgetBreakdown] of the budget by period and/or participating funders.",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/BudgetBreakdown"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/BudgetBreakdown"
           }
         },
         "budgetAllocation": {
@@ -847,7 +847,7 @@
           "title": "Budget breakdown",
           "description": "An array of [BudgetAllocation] of the budget",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/BudgetAllocation"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/BudgetAllocation"
           }
         }
       }
@@ -875,7 +875,7 @@
         "amount": {
           "title": "Amount",
           "description": "The [Value] of the budget line item.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Value"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Value"
         },
         "uri": {
           "title": "Linked budget information",
@@ -888,12 +888,12 @@
           "format": "uri"
         },
         "period": {
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period",
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period",
           "title": "Budget period",
           "description": "The [Period] covered by this budget entry."
         },
         "sourceParty": {
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/OrganizationReference",
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/OrganizationReference",
           "title": "Source party",
           "description": "The [OrganizationReference] for Organization or other party related to this budget entry. If the budget amount is positive, this indicates a flow of resources from the party to the contracting process. If the budget amount is negative, it indicates a payment from the contracting process to this party."
         },
@@ -901,7 +901,7 @@
           "title": "Budget classifications",
           "description": "Budget [Classification] must be provided as a set of key-value pairs, where the key is a dimension (or the label of a dimension) used in budget classification, and the value is the value of that dimension for this contracting process or specific contract (depending on the point within an OCDS file at which the classification is provided).",
           "type": "object",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Classification"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Classification"
         },
         "measures": {
           "title": "measures",
@@ -922,7 +922,7 @@
           ]
         },
         "period": {
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period",
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period",
           "title": "Budget period",
           "description": "The [Period] covered by this budget entry."
         },
@@ -966,19 +966,19 @@
         "jobTitle": {
           "description": "[Classification] and human-readeble description of persones' position",
           "type": "object",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Classification"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Classification"
         },
         "period": {
           "description": "Actual [Period] of this business function",
           "type": "object",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "documents": {
           "type": "array",
           "descriptiopn": "[Document] with docType:regulatoryDocument",
           "items": [
             {
-              "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Document"
+              "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Document"
             }
           ]
         }
@@ -1069,7 +1069,7 @@
         "period": {
           "title": "Period",
           "description": "Used to specify a particular [Period] the conversion and its coefficients are applies to",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "coefficient": {
           "title": "Coefficient",
@@ -1219,12 +1219,12 @@
         "period": {
           "title": "Period",
           "description": "The start and end date for the contract.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "value": {
           "title": "Value",
           "description": "The total value of this contract. A negative value indicates that the contract will involve payments from the supplier to the buyer (commonly used in concession contracts).",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Value"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Value"
         },
         "items": {
           "title": "Items contracted",
@@ -1232,7 +1232,7 @@
           "type": "array",
           "minItems": 1,
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Item"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Item"
           },
           "uniqueItems": true
         },
@@ -1251,19 +1251,19 @@
           "description": "All documents and attachments related to the contract, including any notices.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Document"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Document"
           },
           "uniqueItems": true
         },
         "implementation": {
           "title": "Implementation",
           "description": "Information related to the implementation of the contract in accordance with the obligations laid out therein.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Implementation"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Implementation"
         },
         "relatedProcesses": {
           "uniqueItems": true,
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/RelatedProcess"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/RelatedProcess"
           },
           "description": "If this process is followed by one or more contracting processes, represented under a separate open contracting identifier (ocid) then details of the related process can be provided here. This is commonly used to point to subcontracts, or to renewal and replacement processes for this contract.",
           "title": "Related processes",
@@ -1274,7 +1274,7 @@
           "description": "A list of milestones associated with the finalisation of this contract.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Milestone"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Milestone"
           }
         },
         "amendments": {
@@ -1282,7 +1282,7 @@
           "type": "array",
           "title": "Amendments",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Amendment"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Amendment"
           }
         },
         "requirementResponses": {
@@ -1292,7 +1292,7 @@
             "idRef": "id"
           },
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/RequirementResponse"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/RequirementResponse"
           },
           "unqiueItems": true
         },
@@ -1309,7 +1309,7 @@
           "title": "Agreed metrics",
           "description": "Any target metrics set out as part of the contract documents.",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Metric"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Metric"
           },
           "uniqueItems": true
         }
@@ -1359,7 +1359,7 @@
           "description": "A list of any applicable [Coefficient] for this conversion",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Coefficient"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Coefficient"
           }
         }
       }
@@ -1433,7 +1433,7 @@
             "idRef": "id"
           },
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/RequirementGroup"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/RequirementGroup"
           },
           "uniqueItems": true
         }
@@ -1808,7 +1808,7 @@
         "author": {
           "title": "Question author",
           "description": "The [OrganizationReference] of the party asking this question.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/OrganizationReference"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/OrganizationReference"
         },
         "title": {
           "title": "Question title",
@@ -1937,7 +1937,7 @@
           ]
         },
         "period": {
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period",
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period",
           "title": "Budget period",
           "description": "The [Period] covered by this financial progress breakdown entry. This information may also be duplicated using classifications where relevant."
         },
@@ -1945,7 +1945,7 @@
           "title": "Budget classifications",
           "description": "Budget [Classification] must be provided as a set of key-value pairs, where the key is a dimension (or the label of a dimension) used in budget classification, and the value is the value of that dimension for this contracting process or specific contract (depending on the point within an OCDS file at which the classification is provided).",
           "type": "object",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Classification"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Classification"
         },
         "measures": {
           "title": "measures",
@@ -2106,7 +2106,7 @@
           "description": "A list of the spending transactions made against this contract as an array of [Transaction]",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Transaction"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Transaction"
           },
           "uniqueItems": true
         },
@@ -2115,7 +2115,7 @@
           "description": "A list of milestones associated with the implementation as an array of [Milestone]",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Milestone"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Milestone"
           },
           "uniqueItems": true
         },
@@ -2124,7 +2124,7 @@
           "description": "Documents and reports that are part of the implementation as an array on [Document]",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Document"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Document"
           },
           "uniqueItems": true
         },
@@ -2136,7 +2136,7 @@
             "totalSpend": {
               "title": "Total spend",
               "description": "The total spend on this contract at the date of last update published as [Value]",
-              "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Value"
+              "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Value"
             },
             "measures": {
               "title": "Measures",
@@ -2148,7 +2148,7 @@
               "description": "This section contains a breakdown of financial progress, allowing various measures (amount invoiced, amount accrued, amount paid etc.) to be disaggregated by source, period and budget classification. Publishes as an array of [FinancialProgressBreakdown]",
               "type": "array",
               "items": {
-                "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/FinancialProgressBreakdown"
+                "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/FinancialProgressBreakdown"
               }
             }
           }
@@ -2171,7 +2171,7 @@
           ]
         },
         "finalValue": {
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Value",
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Value",
           "title": "Final value",
           "description": "The total value of all payments for a completed contract. This should only be provided when the final payment has been recorded. If `implementation/transactions` are used for this contract, this field should equal the sum of the `transaction/value/amount` fields. Where `finalValue/amount` varies from `contract/value/amount` an explanation of the variance should be provided in `finalValueDetails`. Publishes as [Value]"
         },
@@ -2188,7 +2188,7 @@
           "description": "An array of [PerformanceFailure] disclosures, detailing performance failures for different periods and categories.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/PerformanceFailure"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/PerformanceFailure"
           },
           "uniqueItems": true
         },
@@ -2197,7 +2197,7 @@
           "title": "Metrics",
           "description": "Reported results from the delivery of the contracted goods, works or services described with an array of [Metrics]",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Metric"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Metric"
           },
           "uniqueItems": true
         },
@@ -2244,14 +2244,14 @@
         "classification": {
           "title": "Classification",
           "description": "The primary [Classification] for the item",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Classification"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Classification"
         },
         "additionalClassifications": {
           "title": "Additional classifications",
           "description": "An array of additional [Classification] for the item. This may also be used to present codes from an internal classification scheme.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Classification"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Classification"
           },
           "uniqueItems": true
         },
@@ -2267,7 +2267,7 @@
           "title": "Unit",
           "description": "A description of the [Unit] in which the supplies, services or works are provided ",
           "type": "object",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Unit"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Unit"
         },
         "relatedLots": {
           "title": "Related lot(s)",
@@ -2285,12 +2285,12 @@
         "deliveryLocation": {
           "title": "Delivery Location",
           "description": "The [Location] where activity related to this tender, contract or license will be delivered, or will take place.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Location"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Location"
         },
         "deliveryAddress": {
           "title": "Delivery Address",
           "description": "The [Address] to which, or where, goods or services related to this tender, contract or license will be delivered.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Address"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Address"
         }
       }
     },
@@ -2335,13 +2335,13 @@
           "type": "object",
           "title": "Geometry",
           "description": "[geometry] of this location",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Geometry"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Geometry"
         },
         "gazetteer": {
           "type": "object",
           "title": "Gazetteer",
           "description": "A [Gazetteer] of this location",
-          "#ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Gazetter"
+          "#ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Gazetter"
         },
         "uri": {
           "type": [
@@ -2399,7 +2399,7 @@
         },
         "value": {
           "title": "Lot value",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Value",
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Value",
           "description": "The maximum estimated [Value] of this lot."
         },
         "options": {
@@ -2407,20 +2407,20 @@
           "description": "Details about any [Option] related to this lot: if they will be accepted and what they can consist of. Required by the EU",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Options"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Options"
           }
         },
         "recurrence": {
           "title": "Recurrence",
           "description": "Information on the [Recurrence] of the lot.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Recurrence"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Recurrence"
         },
         "renewals": {
           "title": "Renewals",
           "description": "Details of any allowable contract [Renewals]",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Renewals"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Renewals"
           }
         },
         "variants": {
@@ -2428,23 +2428,23 @@
           "description": "Details about lot [Variants]: if they will be accepted and what they can consist of. Required by the EU",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Variants"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Variants"
           }
         },
         "placeOfPerformance": {
           "title": "Place of Performance",
           "description": "The address, NUTS code and further description of the place where the contract will be performed - [PlaceOfPerformance]",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/PlaceOfPerformance"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/PlaceOfPerformance"
         },
         "classification": {
           "title": "Place of Performance",
           "description": "The address, NUTS code and further description of the place where the contract will be performed - [PlaceOfPerformance]",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Classification"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Classification"
         },
         "secondStage": {
           "title": "Second stage",
           "description": "Information about the second stage of a two-stage procedure (e.g. a restricted procedure, a competitive procedure with negotiation, a competitive dialogue or an innovation partnership).",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/SecondStage"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/SecondStage"
         }
       }
     },
@@ -2508,7 +2508,7 @@
         "maximumValue": {
           "title": "Maximum value",
           "description": "The maximum estimated [Value] of the lots in this group. This may be lower than the sum total of lot values",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Value"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Value"
         }
       }
     },
@@ -2566,7 +2566,7 @@
           "title": "Observations",
           "description": "An array of [Observation]: target or actual values for this metric.",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Observation"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Observation"
           },
           "uniqueItems": true
         }
@@ -2676,7 +2676,7 @@
           "description": "Parties that have a relationship with the milestone as an array of [OrganizationReference]",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/OrganizationReference"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/OrganizationReference"
           }
         },
         "additionalInformation": {
@@ -2793,14 +2793,14 @@
         "classification": {
           "title": "Classification",
           "description": "[Classification] according to Review Bodies' approach to systemize subjects of complaint",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Classification"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Classification"
         },
         "requestedActions": {
           "title": "Requested actions",
           "description": "A list of precise [RequestedAction] under this objection",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/RequestedAction"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/RequestedAction"
           }
         }
       }
@@ -2861,12 +2861,12 @@
         "period": {
           "title": "Period",
           "description": "The [Period] over which this observation is measured.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "value": {
           "title": "Value",
           "description": "For financial metrics, the [Value] of this forecast, target or actual observation.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Value"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Value"
         },
         "measure": {
           "title": "Measure",
@@ -2881,7 +2881,7 @@
           "type": "object",
           "title": "Unit",
           "description": "Unit",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/Definitions/Unit"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/Definitions/Unit"
         },
         "dimensions": {
           "type": "object",
@@ -2899,12 +2899,12 @@
         "relatedImplementationMilestone": {
           "title": "Related implementation milestone",
           "description": "A MilestoneReference to the milestone in the implementation section of OCDS to which this forecast, target or actual observation is related.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/MilestoneReference"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/MilestoneReference"
         },
         "relatedRequirementID": {
           "title": "Related requirement",
           "description": "The [RequirementReference] of the requirement which the observation is applicable to",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/RequirementReference"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/RequirementReference"
         }
       }
     },
@@ -2953,39 +2953,39 @@
         "identifier": {
           "title": "Primary identifier",
           "description": "The primary [Identifier] for this organization. Identifiers that uniquely pick out a legal entity should be preferred. Consult the [organization identifier guidance](http://standard.open-contracting.org/1.1-dev/en/schema/identifiers/) for the preferred scheme and identifier to use.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Identifier"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Identifier"
         },
         "additionalIdentifiers": {
           "title": "Additional identifiers",
           "description": "Any additional / supplemental [Identifier] for the organization. This could be used to provide an internally used identifier for this organization in addition to the primary legal entity identifier.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Identifier"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Identifier"
           },
           "uniqueItems": true
         },
         "address": {
           "desciption": "This may be the legally registered [Address] of the organization, or may be a correspondence address for this particular contracting process",
           "type": "object",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Address"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Address"
         },
         "contactPoint": {
           "description": "[Contact point] details that can be used for this party",
           "type": "object",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/ContactPoint"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/ContactPoint"
         },
         "additionalContactPoints": {
           "description": "Additional [Contact point] (or many of them) details that can be used for this party",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/ContactPoint"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/ContactPoint"
           }
         },
         "persones": {
           "description": "List of persones associated with this organization described with [Persone] array",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Persone"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Persone"
           }
         },
         "roles": {
@@ -3020,21 +3020,21 @@
           "description": "List of [OrganizationReference] for the sub-organizations of devisions of this organization",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/OrganizationReference"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/OrganizationReference"
           }
         },
         "memberOf": {
           "description": "List of [OrganizationReference] for the organizations that include this organization",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/OrganizationReference"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/OrganizationReference"
           }
         },
         "parentOrganizations": {
           "description": "List of [OrganizationReference] for the parents of this organization",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/OrganizationReference"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/OrganizationReference"
           }
         }
       }
@@ -3056,7 +3056,7 @@
           "decription": "Any additional classifications for both buyers and sellerd, described as ab array of [Classification]",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Classification"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Classification"
           }
         },
         "typeOfBuyer": {
@@ -3071,7 +3071,7 @@
         "typeOfSupplier": {
           "descriptiopn": "Specifing whether this Entity is 'personel' or 'company' as [Classification]",
           "type": "object",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Classification"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Classification"
         },
         "mainGeneralActivity": {
           "title": "Main General Activity",
@@ -3103,26 +3103,26 @@
           "description": "Banking detalis of the entity as an array of [BankAccount]",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/BankAccount"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/BankAccount"
           }
         },
         "mainEconomicActivities": {
           "description": "A list of [Classification] of the registered activities of organization",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Classification"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Classification"
           }
         },
         "legalForm": {
           "description": "Information about [Classificarion] of the legal form of the organization",
           "type": "object",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Classificarion"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Classificarion"
         },
         "permits": {
           "description": "Information about set of [Permit] and licenses issued for the organization",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Permit"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Permit"
           }
         }
       }
@@ -3177,7 +3177,7 @@
         },
         "value": {
           "description": "Fee [Value]",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Value"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Value"
         },
         "description": {
           "title": "Description",
@@ -3217,7 +3217,7 @@
             "object",
             "null"
           ],
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "category": {
           "title": "Performance failure category",
@@ -3321,7 +3321,7 @@
         },
         "permitDetails": {
           "description": "[PermitDetails] about permit/license",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/PermitDetails"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/PermitDetails"
         }
       }
     },
@@ -3332,17 +3332,17 @@
         "issuedBy": {
           "description": "[OrganizationReference] on Entity who issued this permit/license",
           "type": "object",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/OrganizationReference"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/OrganizationReference"
         },
         "validityPeriod": {
           "description": "[Period] of validity of this permit/license. It could be any attributes of 'Period'",
           "type": "object",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "issuedThought": {
           "description": "[EconomicActivityReference] to a activity (described in 'mainEconomicActivities') which is covered by this permit/license",
           "type": "object",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/EconomicActivityReference"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/EconomicActivityReference"
         }
       }
     },
@@ -3377,14 +3377,14 @@
         "identifier": {
           "description": "The legal [Identifier] of this person according to local identification scheme",
           "type": "object",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Identifier"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Identifier"
         },
         "businessFunctions": [
           {
             "description": "A set of persones' [BusinessFunction]",
             "type": "array",
             "items": {
-              "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/BusinessFunction"
+              "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/BusinessFunction"
             }
           }
         ]
@@ -3398,7 +3398,7 @@
         "address": {
           "title": "address",
           "description": "[Address] for the place of performance of the contract.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Address"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Address"
         },
         "description": {
           "title": "description",
@@ -3414,10 +3414,10 @@
         "implementation": {
           "title": "Implementation",
           "description": "Information related to the implementation of the contract in accordance with the obligations laid out therein.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Implementation"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Implementation"
         },
         "budget": {
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Budget"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Budget"
         },
         "rationale": {
           "title": "Rationale",
@@ -3432,7 +3432,7 @@
           "description": "A list of documents related to the planning process.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Document"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Document"
           }
         },
         "milestones": {
@@ -3440,7 +3440,7 @@
           "description": "A list of milestones associated with the planning stage.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Milestone"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Milestone"
           }
         },
         "forecasts": {
@@ -3448,14 +3448,14 @@
           "title": "Forecasts",
           "description": "Any forecasts metrics for this results of this contracting process.",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Metric"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Metric"
           },
           "uniqueItems": true
         },
         "project": {
           "title": "Project information",
           "description": "The project section can be used to describe the relationship between this contracting process and a project or programme of work.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Project"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Project"
         }
       }
     },
@@ -3528,12 +3528,12 @@
         "period": {
           "title": "Pre-qualification period",
           "description": "The period when the pre-qualification is open for submissions. The end date is the closing date for pre-qualification submissions.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "enquiryPeriod": {
           "title": "Enquiry period",
           "description": "The period during which enquiries regarding the pre-qualification may be made and answered.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "hasEnquiries": {
           "title": "Has enquiries?",
@@ -3554,7 +3554,7 @@
         "qualificationPeriod": {
           "title": "Qualification period",
           "description": "The date or period when candidates will are anticipated to be qualified or pre-selected (shortlisted).",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "numberOfTenderers": {
           "title": "Number of tenderers",
@@ -3569,21 +3569,21 @@
           "description": "All entities who submit a response to the pre-qualification.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/OrganizationReference"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/OrganizationReference"
           },
           "uniqueItems": true
         },
         "procuringEntity": {
           "title": "Procuring entity",
           "description": "The entity managing the procurement, which may be different from the buyer who is paying / using the items being procured.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/OrganizationReference"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/OrganizationReference"
         },
         "documents": {
           "title": "Documents",
           "description": "All documents and attachments related to the pre-qualification, including any notices. See the [documentType codelist](http://standard.open-contracting.org/latest/en/schema/codelists/#document-type) for details of potential documents to include.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Document"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Document"
           }
         },
         "milestones": {
@@ -3591,7 +3591,7 @@
           "description": "A list of milestones associated with the pre-qualification.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Milestone"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Milestone"
           }
         },
         "amendments": {
@@ -3599,7 +3599,7 @@
           "type": "array",
           "title": "Amendments",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Amendment"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Amendment"
           }
         }
       }
@@ -3636,7 +3636,7 @@
         "totalValue": {
           "title": "Total project value",
           "description": "The total anticipated value of the project over it's lifetime. ",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Value"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Value"
         },
         "uri": {
           "title": "Linked project information",
@@ -3650,14 +3650,14 @@
         "sector": {
           "title": "Project sector",
           "description": "A high-level categorization of the main sector this procurement process relates to. Use of [UN COFOG codes](https://unstats.un.org/unsd/publications/catalogue?selectID=145), with 'COFOG' as the classification scheme, and the numerical COFOG code is recommended for the primary sector classification.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Classification"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Classification"
         },
         "additionalClassifications": {
           "title": "Additional sector classifications",
           "description": "Additional project classification, by other sector classifications, or using other classification schemes (e.g. against a strategic framework).",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Classification"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Classification"
           },
           "uniqueItems": true,
           "wholeListMerge": true
@@ -3667,7 +3667,7 @@
           "description": "Information about the location where a project is taking place.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Location"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Location"
           },
           "uniqueItems": true,
           "wholeListMerge": true
@@ -3686,7 +3686,7 @@
         "outsourcedTo": {
           "title": "Outsourced To",
           "description": "An [OrganizationReference] to identify the organization that is running the outsourced procedure",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/OrganizationReference"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/OrganizationReference"
         }
       }
     },
@@ -3700,7 +3700,7 @@
           "description": "An estimate of the [Period] of subsequent initiations of contracting processes (e.g. notices of intended procurement).",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
           },
           "wholeListMerge": true
         },
@@ -3923,14 +3923,14 @@
         },
         "period": {
           "description": "Used to specify a particular [Period] the requirement applies to, for example the bidder's turnover in a given year",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "eligibleEvidences": {
           "title": "Eligible evidences",
           "description": "Any [Evidance] that will be accepted as a proof of sasisfaction of sepcific requirement ",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Evidence"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Evidence"
           }
         }
       }
@@ -3965,7 +3965,7 @@
             "idRef": "id"
           },
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Requirement"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Requirement"
           },
           "uniqueItems": true
         }
@@ -4013,17 +4013,17 @@
         },
         "period": {
           "description": "The [Period] which the requirement response is applicable to",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "requirement": {
           "title": "Related requirement",
           "description": "The [RequirementReference] of the requirement which the response is applicable to",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/RequirementReference"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/RequirementReference"
         },
         "relatedTenderer": {
           "title": "Related tenderer",
           "description": "Where this requirement response relates to a tenderer and is provided by the buyer or procuring entity this field should be used as [OrganizationReference] the entry in the parties section for the tenderer the response relates to.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/OrganizationReference"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/OrganizationReference"
         },
         "relatedItem": {
           "title": "Related Item",
@@ -4105,7 +4105,7 @@
           "description": "Each [Milestone] associated with the procedure",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Milestone"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Milestone"
           }
         },
         "documents": {
@@ -4113,7 +4113,7 @@
           "description": "Each [Document] and attachment related to the procedure",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Document"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Document"
           }
         },
         "objectionResponses": {
@@ -4121,7 +4121,7 @@
           "description": "A list of [ObjectionResponse] against all actions requested under relatede complaints",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/ObjectionResponse"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/ObjectionResponse"
           }
         }
       }
@@ -4136,7 +4136,7 @@
           "description": "Complaints to the conditions and decisions",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Complaint"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Complaint"
           }
         },
         "reviews": {
@@ -4144,7 +4144,7 @@
           "description": "Review Procedures conducted due to complaints received",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Review"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Review"
           }
         }
       }
@@ -4238,7 +4238,7 @@
             "null"
           ],
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/OrganizationReference"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/OrganizationReference"
           }
         },
         "documents": {
@@ -4246,7 +4246,7 @@
           "description": "Any [Document] and attachment related to the bid and its evaluation.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Document"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Document"
           },
           "uniqueItems": true
         },
@@ -4259,7 +4259,7 @@
             "idRef": "id"
           },
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/RequirementResponse"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/RequirementResponse"
           },
           "unqiueItems": true
         }
@@ -4300,17 +4300,17 @@
           "format": "date-time"
         },
         "value": {
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Value",
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Value",
           "title": "Value",
           "description": "The [Value] of the transaction."
         },
         "payer": {
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/OrganizationReference",
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/OrganizationReference",
           "title": "Payer",
           "description": "An [OrganizationReference] for the organization from which the funds in this transaction originate."
         },
         "payee": {
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/OrganizationReference",
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/OrganizationReference",
           "title": "Payee",
           "description": "An [OrganizationReference] for the organization which receives the funds in this transaction."
         },
@@ -4397,14 +4397,14 @@
           "description": "The goods and services to be purchased, broken into line items wherever possible. Items should not be duplicated, but a quantity of 2 specified instead.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Item"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Item"
           },
           "uniqueItems": true
         },
         "value": {
           "title": "Value",
           "description": "The total upper estimated value of the procurement. A negative value indicates that the contracting process may involve payments from the supplier to the buyer (commonly used in concession contracts).",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Value"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Value"
         },
         "procurementMethod": {
           "title": "Procurement method",
@@ -4501,12 +4501,12 @@
         "tenderPeriod": {
           "title": "Tender period",
           "description": "The period when the tender is open for submissions. The end date is the closing date for tender submissions.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "enquiryPeriod": {
           "title": "Enquiry period",
           "description": "The period during which potential bidders may submit questions and requests for clarification to the entity managing procurement. Details of how to submit enquiries should be provided in attached notices, or in submissionMethodDetails. Structured dates for when responses to questions will be made can be provided using tender milestones.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "enquiries": {
           "title": "Enquiries",
@@ -4516,7 +4516,7 @@
           ],
           "description": "Questions sent to the procuring entity, and the answers given",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Enquiry"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Enquiry"
           },
           "uniqueItems": true
         },
@@ -4539,12 +4539,12 @@
         "awardPeriod": {
           "title": "Evaluation and award period",
           "description": "The period for adjudication and selection of the contract award. The end date should be the date on which an award is due to be finalised. The start date may be used to indicate the start of an evaluation period.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "contractPeriod": {
           "description": "The period over which the contract is estimated or required to be active. If the tender does not specify explicit dates, the duration field may be used.",
           "title": "Contract period",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "numberOfTenderers": {
           "title": "Number of tenderers",
@@ -4559,21 +4559,21 @@
           "description": "All entities who submit a bid on a tender. More detailed information on bids and the bidding organisation can be provided using the optional bid extension.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/OrganizationReference"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/OrganizationReference"
           },
           "uniqueItems": true
         },
         "procuringEntity": {
           "title": "Procuring entity",
           "description": "The entity managing the procurement, which may be different from the buyer who is paying / using the items being procured.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/OrganizationReference"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/OrganizationReference"
         },
         "documents": {
           "title": "Documents",
           "description": "All documents and attachments related to the tender, including any notices. See the [documentType codelist](http://standard.open-contracting.org/1.1-dev/en/schema/codelists/#document-type) for details of potential documents to include.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Document"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Document"
           }
         },
         "milestones": {
@@ -4581,7 +4581,7 @@
           "description": "A list of milestones associated with the tender.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Milestone"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Milestone"
           }
         },
         "amendments": {
@@ -4589,7 +4589,7 @@
           "type": "array",
           "title": "Amendments",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Amendment"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Amendment"
           }
         },
         "lots": {
@@ -4597,18 +4597,18 @@
           "description": "A tender process may be divided into lots, where bidders can bid on one or more lots. Details of each lot can be provided here. Items, documents and other features can then reference the lot they are related to using relatedLot. Where no relatedLot identifier is given, the values should be interpreted as applicable to the whole tender. Properties of tender can be overridden for a given Lot through their inclusion in the Lot object.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Lot"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Lot"
           }
         },
         "lotDetails": {
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/LotDetails"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/LotDetails"
         },
         "lotGroups": {
           "title": "Lot groups",
           "description": "Where the buyer reserves the right to combine lots, or wishes to specify the total value for a group of lots, a lot group is used to capture this information.",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/LotGroup"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/LotGroup"
           }
         },
         "participationFees": {
@@ -4617,7 +4617,7 @@
           "type": "array",
           "mergeStrategy": "ocdsVersion",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/ParticipationFee"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/ParticipationFee"
           },
           "uniqueItems": true
         },
@@ -4629,23 +4629,23 @@
             "idRef": "id"
           },
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Criterion"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Criterion"
           }
         },
         "classification": {
           "title": "Classification",
           "description": "The primary classification for the tender. Required by the EU. Uses CPV Codelist See the [itemClassificationScheme](http://standard.open-contracting.org/1.1-dev/en/schema/codelists/#item-classification-scheme).",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Classification"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Classification"
         },
         "reviewPeriod": {
           "title": "Review period",
           "description": "The period during which the decision of the procuring entity to award a contract can be challenged.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "standstillPeriod": {
           "title": "Standstill period",
           "description": "The duration of the applicable standstill period following a challenge or appeal of decisions or actions taken by the procuring entity that are allegedly not in compliance with the provisions of the Law",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "submissionLanguages": {
           "title": "Submission Languages",
@@ -4692,14 +4692,14 @@
           "title": "Targets",
           "description": "Any target metrics for this results of this contracting process.",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Metric"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Metric"
           },
           "uniqueItems": true
         },
         "auctionPeriod": {
           "title": "Auction period",
           "description": "General auction period for the contracting process",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Period"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
         },
         "procurementMethodModalitiesDetails": {
           "title": "Procurement Method Modalities Details",
@@ -4711,7 +4711,7 @@
               "description": "The prescribed presets of settings and adjustments available for the electronic auction as one one of the procurement methods modalities applied under this contracting process",
               "type": "array",
               "items": {
-                "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/electronicAuctionModalities"
+                "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/electronicAuctionModalities"
               }
             }
           }
@@ -4721,7 +4721,7 @@
           "description": "A list of weightings for the used criteria or applicable options",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Conversion"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Conversion"
           }
         },
         "complaints": {
@@ -4729,13 +4729,13 @@
           "description": "Any comlaints related to this tender",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/RelatedComplaint"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/RelatedComplaint"
           }
         },
         "recurrence": {
           "title": "Recurrence",
           "description": "Information on the recurrence of the contracting process.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Recurrence"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Recurrence"
         },
         "coveredBy": {
           "title": "Covered by",
@@ -4754,7 +4754,7 @@
         "secondStage": {
           "title": "Second stage",
           "description": "Information about the second stage of a two-stage procedure (e.g. a restricted procedure, a competitive procedure with negotiation, a competitive dialogue or an innovation partnership).",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/SecondStage"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/SecondStage"
         }
       }
     },
@@ -4774,7 +4774,7 @@
         "value": {
           "title": "Value",
           "description": "The monetary [Value] of a single unit.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Value"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Value"
         },
         "scheme": {
           "title": "Scheme",
@@ -4856,7 +4856,7 @@
             "null"
           ],
           "items": {
-            "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/ExchangeRate"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/ExchangeRate"
           }
         },
         "valueAddedTaxIncluded": {
@@ -4900,12 +4900,12 @@
         "amount": {
           "title": "amount",
           "description": "The amount of this [Value] breakdown. A positive value represents a transaction from buyer to supplier. A negative value represents a payment from the supplier to the buyer.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Value"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Value"
         },
         "estimationMethod": {
           "title": "Estimation Method",
           "description": "The estimation method of this [Value] breakdown, where applicable.",
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Value"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Value"
         }
       }
     },
@@ -4916,7 +4916,7 @@
       "properties": {
         "value": "",
         "unit": {
-          "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Unit"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Unit"
         }
       }
     }
