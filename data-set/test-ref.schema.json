@@ -428,7 +428,86 @@
         "id": {
           "title": "Award ID",
           "description": "The identifier for this award. It must be unique and cannot change within the Open Contracting Process it is part of (defined by a single ocid). See the [identifier guidance](http://standard.open-contracting.org/1.1-dev/en/schema/identifiers/) for further details.",
+          "type": [
+            "string",
+            "integer"
+          ]
+        },
+        "internalId": {
+          "title": "",
+          "description": "",
+          "type": [
+            "string",
+            "integer"
+          ]
+        },
+        "title": {
+          "title": "Title",
+          "description": "Award title",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "description": {
+          "title": "Description",
+          "description": "Award description",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "title": "Award status",
+          "description": "The current status of the award drawn from the [awardStatus codelist](http://standard.open-contracting.org/1.1-dev/en/schema/codelists/#award-status)",
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "pending",
+            "active",
+            "cancelled",
+            "unsuccessful",
+            null
+          ],
+          "codelist": "awardStatus.csv",
+          "openCodelist": false
+        },
+        "date": {
+          "title": "Award date",
+          "description": "The date of the contract award. This is usually the date on which a decision to award was made.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "relatedLots": {
+          "title": "Related lot(s)",
+          "description": "If this award relates to one or more specific lots, provide the identifier(s) of the related lot(s) here.",
+          "type": [
+            "array"
+          ],
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "statusDetails": {
+          "title": "Status details",
+          "description": "Additional details of an award status.",
           "type": "string"
+        },
+        "relatedBid": {
+          "title": "Related Bid",
+          "description": "Where bid details are used, a cross reference to the entry in the bids array to which this award relates. Provide the bid identifier here",
+          "type": [
+            "string",
+            "integer"
+          ]
         }
       }
     },
