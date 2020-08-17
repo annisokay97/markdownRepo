@@ -433,22 +433,6 @@
             "integer"
           ]
         },
-        "internalId": {
-          "title": "",
-          "description": "",
-          "type": [
-            "string",
-            "integer"
-          ]
-        },
-        "title": {
-          "title": "Title",
-          "description": "Award title",
-          "type": [
-            "string",
-            "null"
-          ]
-        },
         "description": {
           "title": "Description",
           "description": "Award description",
@@ -457,42 +441,10 @@
             "null"
           ]
         },
-        "status": {
-          "title": "Award status",
-          "description": "The current status of the award drawn from the [awardStatus codelist](http://standard.open-contracting.org/1.1-dev/en/schema/codelists/#award-status)",
-          "type": [
-            "string",
-            "null"
-          ],
-          "enum": [
-            "pending",
-            "active",
-            "cancelled",
-            "unsuccessful",
-            null
-          ]
-        },
-        "date": {
-          "title": "Award date",
-          "description": "The date of the contract award. This is usually the date on which a decision to award was made.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "format": "date-time"
-        },
         "statusDetails": {
           "title": "Status details",
           "description": "Additional details of an award status.",
           "type": "string"
-        },
-        "relatedBid": {
-          "title": "Related Bid",
-          "description": "Where bid details are used, a cross reference to the entry in the bids array to which this award relates. Provide the bid identifier here",
-          "type": [
-            "string",
-            "integer"
-          ]
         }
       }
     },
