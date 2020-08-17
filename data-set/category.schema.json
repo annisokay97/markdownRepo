@@ -4,5 +4,5 @@
   "title": "Award.commonDefinition",
   "type":"object",
   "description": "A common definitions of an 'award' as per standard",
-  "$ref": "https://raw.githubusercontent.com/UNCITRAL-OpenDigitalProcurement/data-standard/master/schema/release-schema.json#/definitions/Award"
+  "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Award"
 }
