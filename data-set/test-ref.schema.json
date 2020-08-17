@@ -481,19 +481,6 @@
           ],
           "format": "date-time"
         },
-        "relatedLots": {
-          "title": "Related lot(s)",
-          "description": "If this award relates to one or more specific lots, provide the identifier(s) of the related lot(s) here.",
-          "type": [
-            "array"
-          ],
-          "items": {
-            "type": [
-              "string",
-              "null"
-            ]
-          }
-        },
         "statusDetails": {
           "title": "Status details",
           "description": "Additional details of an award status.",
