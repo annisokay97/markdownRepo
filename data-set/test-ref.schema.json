@@ -22,11 +22,9 @@
         }
       }
     },
-    
-    
     "Action": {
       "title": "Action",
-      "description": "The sepcific actions that has to be taken",
+      "description": "The specific actions that has to be taken",
       "type": "object",
       "properties": {
         "action": {
@@ -55,17 +53,17 @@
         "targetsAchieved": {
           "title": "Targets achieved",
           "description": "The [Action] prescribed for the case if targets of this stage of the electronic auction where acheived",
-          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definition/Action"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Action"
         },
         "targetsNotAchieved": {
           "title": "Targets not achieved",
           "description": "The [Action] prescribed for the case if targets of this stage of the electronic auction where not acheived",
-          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definition/Action"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Action"
         },
         "groupCancelled": {
           "title": "Group cancelled",
           "description": "The [Action] prescribed for the case if this stage of the electronic auction was cancelled do to requirements of the conditions to start",
-          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definition/Action"
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Action"
         }
       }
     },
@@ -299,7 +297,7 @@
           "description": "The [ActionTriggers] for this stage of the electronic auction",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definition/ActionTriggers"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/ActionTriggers"
           }
         },
         "invitedTenderers": {
@@ -307,7 +305,7 @@
           "description": "The set of the groups of the invited particiapnts described using as [InvitationToAuction]",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definition/InvitationToAuction"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/InvitationToAuction"
           }
         },
         "rounds": {
@@ -484,6 +482,52 @@
             "null"
           ],
           "format": "date-time"
+        },
+        "value": {
+          "title": "Value",
+          "description": "The total value of this award. In the case of a framework contract this may be the total estimated lifetime value, or maximum value, of the agreement. There may be more than one award per procurement. A negative value indicates that the award may involve payments from the supplier to the buyer (commonly used in concession contracts).",
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Value"
+        },
+        "suppliers": {
+          "title": "Suppliers",
+          "description": "The suppliers awarded this award. If different suppliers have been awarded different items of values, these should be split into separate award blocks.",
+          "type": "array",
+          "items": {
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/OrganizationReference"
+          },
+          "uniqueItems": true
+        },
+        "items": {
+          "title": "Items awarded",
+          "description": "The goods and services awarded in this award, broken into line items wherever possible. Items should not be duplicated, but the quantity specified instead.",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Item"
+          },
+          "uniqueItems": true
+        },
+        "contractPeriod": {
+          "title": "Contract period",
+          "description": "The period for which the contract has been awarded.",
+          "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Period"
+        },
+        "documents": {
+          "title": "Documents",
+          "description": "All documents and attachments related to the award, including any notices.",
+          "type": "array",
+          "items": {
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Document"
+          },
+          "uniqueItems": true
+        },
+        "amendments": {
+          "description": "An award amendment is a formal change to the details of the award, and generally involves the publication of a new award notice/release. The rationale and a description of the changes made can be provided here.",
+          "type": "array",
+          "title": "Amendments",
+          "items": {
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Amendment"
+          }
         },
         "relatedLots": {
           "title": "Related lot(s)",
@@ -3886,7 +3930,7 @@
           "description": "Any [Evidance] that will be accepted as a proof of sasisfaction of sepcific requirement ",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definition/Evidence"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Evidence"
           }
         }
       }
