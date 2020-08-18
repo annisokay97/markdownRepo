@@ -165,7 +165,7 @@
             "description": "The stages of this electronic auction, described as [AuctionRoundsGroup]",
             "type": "array",
             "items": {
-            //  "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/AuctionRoundsGroup"
+              "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/AuctionRoundsGroup"
             }
           },
           "auctionResult": {
@@ -871,6 +871,7 @@
           }
         }
       },
+      "Complaint": {"title":"Test Complaint", "type": "string"},
       "ContactPoint": {
         "title": "Contact point",
         "type": "object",
@@ -2862,7 +2863,7 @@
             "type": "array",
             "title": "Amendments",
             "items": {
-           //   "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Amendment"
+              "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Amendment"
             }
           }
         }
@@ -3293,7 +3294,7 @@
             "description": "Complaints to the conditions and decisions",
             "type": "array",
             "items": {
-        //      "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Complaint"
+              "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Complaint"
             }
           },
           "reviews": {
@@ -3631,7 +3632,7 @@
             "type": "array",
             "title": "Amendments",
             "items": {
-       //       "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Amendment"
+              "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Amendment"
             }
           },
           "lots": {
@@ -3750,7 +3751,7 @@
                 "description": "The prescribed presets of settings and adjustments available for the electronic auction as one one of the procurement methods modalities applied under this contracting process",
                 "type": "array",
                 "items": {
-          //        "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/electronicAuctionModalities"
+                  "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/ElectronicAuctionModalities"
                 }
               }
             }
@@ -3925,4 +3926,4 @@
         }
       }
     }
-  } 
+  }
