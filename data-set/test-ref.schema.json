@@ -125,6 +125,7 @@
           }
         }
       },
+      "Amendment": {"title":"Test Amendment", "type": "string"},
       "Auction": {
         "title": "Electronic auction",
         "description": "Data regarding electronic auction established against specific lot",
@@ -262,7 +263,7 @@
             "desciption": "The set of targets prescribed for this stage of the electronic auction that has to be achieved to consider this stage as successfull. As an array of [Metric]",
             "type": "array",
             "items": {
-             // "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Metric"
+              "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Metric"
             }
           },
           "actions": {
@@ -464,7 +465,7 @@
             "title": "Agreed metrics",
             "description": "Any target metrics set out as part of the contract award.",
             "items": {
-           //   "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Metric"
+              "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Metric"
             },
             "uniqueItems": true
           },
@@ -994,7 +995,7 @@
           "implementation": {
             "title": "Implementation",
             "description": "Information related to the implementation of the contract in accordance with the obligations laid out therein.",
-        //    "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Implementation"
+            "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Implementation"
           },
           "relatedProcesses": {
             "uniqueItems": true,
@@ -1018,7 +1019,7 @@
             "type": "array",
             "title": "Amendments",
             "items": {
-          //    "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Amendment"
+              "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Amendment"
             }
           },
           "requirementResponses": {
@@ -1042,7 +1043,7 @@
             "title": "Agreed metrics",
             "description": "Any target metrics set out as part of the contract documents.",
             "items": {
-         //     "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Metric"
+              "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Metric"
             },
             "uniqueItems": true
           }
@@ -1717,7 +1718,7 @@
             "title": "Metrics",
             "description": "Reported results from the delivery of the contracted goods, works or services described with an array of [Metrics]",
             "items": {
-         //     "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Metric"
+              "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Metric"
             },
             "uniqueItems": true
           },
@@ -2010,7 +2011,7 @@
             "title": "Observations",
             "description": "An array of [Observation]: target or actual values for this metric.",
             "items": {
-         //     "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Observation"
+              "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Observation"
             },
             "uniqueItems": true
           }
@@ -2713,7 +2714,7 @@
           "implementation": {
             "title": "Implementation",
             "description": "Information related to the implementation of the contract in accordance with the obligations laid out therein.",
-    //        "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Implementation"
+           "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Implementation"
           },
           "budget": {
           "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Budget"
@@ -2744,7 +2745,7 @@
             "title": "Forecasts",
             "description": "Any forecasts metrics for this results of this contracting process.",
             "items": {
-         //     "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Metric"
+              "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Metric"
             },
             "uniqueItems": true
           },
@@ -3730,7 +3731,7 @@
             "title": "Targets",
             "description": "Any target metrics for this results of this contracting process.",
             "items": {
-         //     "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Metric"
+              "$ref": "https://raw.githubusercontent.com/annisokay97/markdownRepo/master/data-set/test-ref.schema.json#/definitions/Metric"
             },
             "uniqueItems": true
           },
